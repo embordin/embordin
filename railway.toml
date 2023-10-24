@@ -1,7 +1,0 @@
-builder = "nixpacks"
-buildCommand = "echo building!"
-
-startCommand = "echo starting!"
-healthcheckPath = "/"
-healthcheckTimeout = 100
-restartPolicyType = "never"
