@@ -130,14 +130,14 @@ h3 {
   font-weight: 500;
   margin: 0;
   position: relative;
-  top: 4rem;
+  top: 2rem;
   bottom: 1rem;
   left: 0.5rem;
   right: 0.3rem;
   padding-right: 1rem;
   padding-left: 1rem;
   font-size: 0.9rem;
-  margin: 2rem 3rem 4rem 0rem;
+  margin: 0rem 1rem 3rem 0rem;
 }
 
 .who i {
@@ -197,4 +197,30 @@ h6 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.article {
+  column-count: 3;
+  column-gap: 1rem;
+  column-rule: 1px dashed orange;
+  background-color: gainsboro;
+  padding-top: 1rem;
+  margin-top: 1rem;
+}
+
+.article h2 {
+  color: orange;
+}
+
+li {
+  color: rgb(39, 38, 38);
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+.article p,
+h6 {
+  color: rgb(39, 39, 38);
+  font-weight: 500;
+  font-size: 0.8rem;
 }
